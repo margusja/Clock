@@ -50,7 +50,8 @@ component seven_seg_displ
            hundreds : in  STD_LOGIC_VECTOR (3 downto 0);
            thousands : in  STD_LOGIC_VECTOR (3 downto 0);
 			  an: out STD_LOGIC_VECTOR;
-           ca : out  STD_LOGIC_VECTOR
+           ca : out  STD_LOGIC_VECTOR;
+			  second : in STD_LOGIC
 			  );
 end component;
 
@@ -71,7 +72,7 @@ second <= int2;
 C4:counter port map (clk, int2);
 C1:minute port map (clk, int2, int_demo_led_in, min_sec, int_demo_led_out);
 C6:bin2bcd_12bit port map (int_demo_led_out, ones2, tens2, hundreds2, thousands2);
-C7:seven_seg_displ port map (clk, ones2, tens2, hundreds2, thousands2, an, ca);
+C7:seven_seg_displ port map (clk, ones2, tens2, hundreds2, thousands2, an, ca, int2);
 
 -- see osa tuleks t6sta ka eraldi moodulisse
 led_process : process(clk)

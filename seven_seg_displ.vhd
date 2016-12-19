@@ -11,7 +11,8 @@ entity seven_seg_displ is
            hundreds : in  STD_LOGIC_VECTOR (3 downto 0);
            thousands : in  STD_LOGIC_VECTOR (3 downto 0);
 			  an: out STD_LOGIC_VECTOR (3 downto 0);
-           ca : out STD_LOGIC_VECTOR (7 downto 0)
+           ca : out STD_LOGIC_VECTOR (7 downto 0);
+			  second : in STD_LOGIC
 			  );
 end seven_seg_displ;
 
@@ -32,6 +33,8 @@ s <= clkdiv(8 downto 7);
 clk_proc: process(clk)
 
 begin
+
+
 
 if rising_edge(clk) then
 
@@ -74,25 +77,25 @@ clkdiv <= clkdiv+"1";
 	end case;
 	
 	case hundreds is
-		when "0000" => if ones(3) = '0' then ca3 <= "11000000"; else  ca3 <= "01000000"; end if; -- 0
+		when "0000" => if second = '0' then ca3 <= "01000000"; else  ca3 <= "11000000"; end if; -- 0
 		--when "0000" => ca3 <= "01000000"; -- 0
-		when "0001" => if ones(3) = '0' then ca3 <= "11111001"; else  ca3 <= "01111001"; end if; -- 1
+		when "0001" => if second = '0' then ca3 <= "01111001"; else  ca3 <= "11111001"; end if; -- 1
  		--when "0001" => ca3 <= "01111001"; -- 1
-		when "0010" => if ones(3) = '0' then ca3 <= "10100100"; else  ca3 <= "00100100"; end if; -- 2
+		when "0010" => if second = '0' then ca3 <= "00100100"; else  ca3 <= "10100100"; end if; -- 2
 		--when "0010" => ca3 <= "00100100"; -- 2
-		when "0011" => if ones(3) = '0' then ca3 <= "10110000"; else  ca3 <= "00110000"; end if; -- 3
+		when "0011" => if second = '0' then ca3 <= "00110000"; else  ca3 <= "10110000"; end if; -- 3
 		--when "0011" => ca3 <= "00110000"; -- 3
-		when "0100" => if ones(3) = '0' then ca3 <= "10011001"; else  ca3 <= "00011001"; end if; -- 4
+		when "0100" => if second = '0' then ca3 <= "00011001"; else  ca3 <= "10011001"; end if; -- 4
 		--when "0100" => ca3 <= "00011001"; -- 4
-		when "0101" => if ones(3) = '0' then ca3 <= "10010010"; else  ca3 <= "00010010"; end if; -- 5
+		when "0101" => if second = '0' then ca3 <= "00010010"; else  ca3 <= "10010010"; end if; -- 5
 		--when "0101" => ca3 <= "10010010"; -- 5
-		when "0110" => if ones(3) = '0' then ca3 <= "10000010"; else  ca3 <= "00000010"; end if; -- 6
+		when "0110" => if second = '0' then ca3 <= "00000010"; else  ca3 <= "10000010"; end if; -- 6
 		--when "0110" => ca3 <= "00000010"; -- 6
-		when "0111" => if ones(3) = '0' then ca3 <= "11111000"; else  ca3 <= "01111000"; end if; -- 7
+		when "0111" => if second = '0' then ca3 <= "01111000"; else  ca3 <= "11111000"; end if; -- 7
 		--when "0111" => ca3 <= "01111000"; -- 7
-		when "1000" => if ones(3) = '0' then ca3 <= "10000000"; else  ca3 <= "00000000"; end if; -- 8
+		when "1000" => if second = '0' then ca3 <= "00000000"; else  ca3 <= "10000000"; end if; -- 8
 		--when "1000" => ca3 <= "00000000"; -- 8
-		when "1001" => if ones(3) = '0' then ca3 <= "10010000"; else  ca3 <= "00010000"; end if; -- 9
+		when "1001" => if second = '0' then ca3 <= "00010000"; else  ca3 <= "10010000"; end if; -- 9
 		--when "1001" => ca3 <= "00010000"; -- 9
 		
 		when others => ca3 <= "11111111";
