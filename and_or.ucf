@@ -1,9 +1,11 @@
-NET "clk" LOC = "M6";
+NET "clk1" LOC = "M6";
 
-NET "second" LOC = "M5";
-
-NET "reset" LOC = "A7";
-NET "min_sec" LOC = "P11";
+NET "seconds<0>" LOC = "M5";
+NET "seconds<1>" LOC = "M11";
+NET "seconds<2>" LOC = "P7";
+NET "seconds<3>" LOC = "P6";
+NET "seconds<4>" LOC = "N5";
+NET "seconds<5>" LOC = "N4";
 
 NET	"ca<0>" 	LOC = "L14";
 NET  	"ca<1>" 	LOC = "H12";
@@ -19,4 +21,5 @@ NET "an<2>" LOC = "J12";
 NET "an<1>" LOC = "M13";
 NET "an<0>" LOC = "K14";
 
-
+NET "min_hour" LOC = "N3";
+NET "forward" LOC = "A7";
