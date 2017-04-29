@@ -1,0 +1,6 @@
+INFO:sim:172 - Generating IP...
+Customizing IP...
+An Error occurred during Customization.
+ERROR:sim - Failed to generate 'my_dcm'.  Architecture Wizard process returned
+   with an error.
+Wrote CGP file for project 'my_dcm'.

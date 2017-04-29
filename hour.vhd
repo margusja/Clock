@@ -24,7 +24,7 @@ if rising_edge(clk) then
 
 	if (int_hour = "010111") then 
 		int_hour <= "000000";
-	else
+	else 
 		int_hour <= int_hour+"1";
 	end if;
 	

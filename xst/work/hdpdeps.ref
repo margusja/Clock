@@ -1,0 +1,66 @@
+V3 41
+FL //mac/home/Documents/FPGA/two_entities/and_or.vhd 2017/04/29.20:00:17 P.20131013
+EN work/and_or 1493485246 FL //mac/home/Documents/FPGA/two_entities/and_or.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/and_or/Behavioral 1493485247 \
+      FL //mac/home/Documents/FPGA/two_entities/and_or.vhd EN work/and_or 1493485246 \
+      CP counter CP fast_counter CP second CP hour CP bin2bcd_12bit \
+      CP seven_seg_displ
+FL //mac/home/Documents/FPGA/two_entities/counter.vhd 2016/12/27.17:25:38 P.20131013
+EN work/counter 1493485234 FL //mac/home/Documents/FPGA/two_entities/counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/counter/Behavioral 1493485235 \
+      FL //mac/home/Documents/FPGA/two_entities/counter.vhd EN work/counter 1493485234
+FL //mac/home/Documents/FPGA/two_entities/doubbledabble.vhd 2016/12/22.22:35:30 P.20131013
+EN work/bin2bcd_12bit 1493485242 \
+      FL //mac/home/Documents/FPGA/two_entities/doubbledabble.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/bin2bcd_12bit/Behavioral 1493485243 \
+      FL //mac/home/Documents/FPGA/two_entities/doubbledabble.vhd \
+      EN work/bin2bcd_12bit 1493485242
+FL //mac/home/Documents/FPGA/two_entities/fast_counter.vhd 2016/12/27.19:28:25 P.20131013
+EN work/fast_counter 1493485236 \
+      FL //mac/home/Documents/FPGA/two_entities/fast_counter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/fast_counter/Behavioral 1493485237 \
+      FL //mac/home/Documents/FPGA/two_entities/fast_counter.vhd \
+      EN work/fast_counter 1493485236
+FL //mac/home/Documents/FPGA/two_entities/hour.vhd 2017/04/29.20:00:24 P.20131013
+EN work/hour 1493485240 FL //mac/home/Documents/FPGA/two_entities/hour.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/hour/Behavioral 1493485241 \
+      FL //mac/home/Documents/FPGA/two_entities/hour.vhd EN work/hour 1493485240
+FL //mac/home/Documents/FPGA/two_entities/minute.vhd 2016/12/22.21:55:56 P.20131013
+EN work/minute 1482436951 FL //mac/home/Documents/FPGA/two_entities/minute.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/minute/Behavioral 1482436952 \
+      FL //mac/home/Documents/FPGA/two_entities/minute.vhd EN work/minute 1482436951
+FL //mac/home/Documents/FPGA/two_entities/seconds.vhd 2016/12/27.17:18:19 P.20131013
+EN work/second 1493485238 FL //mac/home/Documents/FPGA/two_entities/seconds.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/second/Behavioral 1493485239 \
+      FL //mac/home/Documents/FPGA/two_entities/seconds.vhd EN work/second 1493485238
+FL //mac/home/Documents/FPGA/two_entities/seven_seg_displ.vhd 2016/12/22.21:25:04 P.20131013
+EN work/seven_seg_displ 1493485244 \
+      FL //mac/home/Documents/FPGA/two_entities/seven_seg_displ.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/seven_seg_displ/Behavioral 1493485245 \
+      FL //mac/home/Documents/FPGA/two_entities/seven_seg_displ.vhd \
+      EN work/seven_seg_displ 1493485244
+FL C:/Users/margusr/AppData/two_entities/and.vhd 2016/05/23.21:45:00 P.20131013
+EN work/and_entity 1469642342 FL C:/Users/margusr/AppData/two_entities/and.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/and_entity/Behavioral 1469642343 \
+      FL C:/Users/margusr/AppData/two_entities/and.vhd EN work/and_entity 1469642342
+FL C:/Users/margusr/AppData/two_entities/and_or.vhd 2016/11/01.19:54:46 P.20131013
+FL C:/Users/margusr/AppData/two_entities/counter.vhd 2016/10/23.10:30:22 P.20131013
+FL C:/Users/margusr/AppData/two_entities/doubbledabble.vhd 2016/09/01.21:23:05 P.20131013
+FL C:/Users/margusr/AppData/two_entities/minute.vhd 2016/11/01.20:31:22 P.20131013
+FL C:/Users/margusr/AppData/two_entities/or.vhd 2016/05/23.21:55:51 P.20131013
+EN work/or_entity 1474040822 FL C:/Users/margusr/AppData/two_entities/or.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/or_entity/Behavioral 1474040823 \
+      FL C:/Users/margusr/AppData/two_entities/or.vhd EN work/or_entity 1474040822
+FL C:/Users/margusr/AppData/two_entities/seven_seg_displ.vhd 2016/10/23.10:41:12 P.20131013

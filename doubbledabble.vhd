@@ -4,11 +4,9 @@ use IEEE.numeric_std.all;
 
 
 entity bin2bcd_12bit is
-    Port ( binIN : in  STD_LOGIC_VECTOR (11 downto 0);
+    Port ( binIN : in  STD_LOGIC_VECTOR (5 downto 0);
            ones : out  STD_LOGIC_VECTOR (3 downto 0);
-           tens : out  STD_LOGIC_VECTOR (3 downto 0);
-           hundreds : out  STD_LOGIC_VECTOR (3 downto 0);
-           thousands : out  STD_LOGIC_VECTOR (3 downto 0)
+           tens : out  STD_LOGIC_VECTOR (3 downto 0)
           );
 end bin2bcd_12bit;
 
@@ -37,7 +35,7 @@ bcd1: process(binIN)
     bcd := (others => '0');
     
     -- read input into temp variable
-    temp(11 downto 0) := binIN;
+    temp(5 downto 0) := binIN;
     
     -- cycle 12 times as we have 12 input bits
     -- this could be optimized, we dont need to check and add 3 for the 
@@ -70,8 +68,10 @@ bcd1: process(binIN)
     -- set outputs
     ones <= STD_LOGIC_VECTOR(bcd(3 downto 0));
     tens <= STD_LOGIC_VECTOR(bcd(7 downto 4));
-    hundreds <= STD_LOGIC_VECTOR(bcd(11 downto 8));
-    thousands <= STD_LOGIC_VECTOR(bcd(15 downto 12));
+    --hundreds <= STD_LOGIC_VECTOR(bcd(11 downto 8));
+	 --hundreds <= "0000";
+    --thousands <= STD_LOGIC_VECTOR(bcd(15 downto 12));
+	 --thousands <= "0000";
   
   end process bcd1;            
   

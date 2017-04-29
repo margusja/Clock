@@ -1,0 +1,7 @@
+vhdl work "seven_seg_displ.vhd"
+vhdl work "seconds.vhd"
+vhdl work "hour.vhd"
+vhdl work "fast_counter.vhd"
+vhdl work "doubbledabble.vhd"
+vhdl work "counter.vhd"
+vhdl work "and_or.vhd"

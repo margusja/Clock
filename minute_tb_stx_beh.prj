@@ -1,0 +1,2 @@
+vhdl isim_temp "minute.vhd"
+vhdl isim_temp "minute_tb.vhd"

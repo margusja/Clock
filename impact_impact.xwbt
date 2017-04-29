@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=Z:\Documents\FPGA\two_entities\impact.xsl
+OUTFILE=Z:\Documents\FPGA\two_entities\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=Z:\Documents\FPGA\two_entities
+LICENSE=iMPACT
+USER_INFO=iMPACT

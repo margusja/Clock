@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "Z:/Documents/FPGA/two_entities/minute_tb_isim_beh.exe" -prj "Z:/Documents/FPGA/two_entities/minute_tb_beh.prj" "work.minute_tb" 

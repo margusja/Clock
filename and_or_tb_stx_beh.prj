@@ -1,0 +1,6 @@
+vhdl isim_temp "seven_seg_displ.vhd"
+vhdl isim_temp "seconds.vhd"
+vhdl isim_temp "doubbledabble.vhd"
+vhdl isim_temp "counter.vhd"
+vhdl isim_temp "and_or.vhd"
+vhdl isim_temp "and_or_tb.vhd"

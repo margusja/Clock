@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Documents\FPGA\two_entities\and_or.ncd
+OUTFILE=Z:\Documents\FPGA\two_entities\and_or.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=Z:\Documents\FPGA\two_entities
+LICENSE=WebPack
+USER_INFO=211154273_0_0_336

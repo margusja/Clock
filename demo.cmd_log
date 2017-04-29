@@ -1,0 +1,3 @@
+sch2sym -intstyle ise -family spartan3e -refsym demo C:/Users/margusr/AppData/two_entities/demo.sch C:/Users/margusr/AppData/two_entities/demo.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl demo_drc.vhf -w C:/Users/margusr/AppData/two_entities/demo.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl demo.vhf -w C:/Users/margusr/AppData/two_entities/demo.sch 

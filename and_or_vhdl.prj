@@ -1,0 +1,7 @@
+vhdl work "\\mac\home\Documents\FPGA\two_entities\seven_seg_displ.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\seconds.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\hour.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\fast_counter.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\doubbledabble.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\counter.vhd"
+vhdl work "\\mac\home\Documents\FPGA\two_entities\and_or.vhd"
